@@ -1,0 +1,68 @@
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+body { font-family:arial,helvetica,sans-serif; }
+
+h1 { margin: 15px 0 5px;
+border-bottom: 1px solid gray;
+width: 70%;
+font-weight:bold;
+color:gray;
+ }
+
+#options > ul {
+  margin: 10px;
+}
+  #options input.name {
+    font-weight:bold;
+    font-size: 20px;
+    border-color:#8592B8;
+    border-width:0 0 3px 0;
+    margin:4px 0;
+  }
+  #options input.name:focus { background-color:#eee; }
+  #options input.name:hover { background-color:#ddd; }
+
+  .help { background-color:#D4FFD3;
+    border:4px solid #5A6F50;
+    padding: 5px;
+    -moz-border-radius:10px;
+    width: 400px;
+    font-size: 13px;
+    position:relative;
+  }
+  .help h2 { color:blue; display:inline; font-size: 1.4em; }
+#graph .label { display:inline-block; width:100px; }
+#graph .bar { background:blue; display:inline-block; }
+#graph .bar > b { display:inline-block; min-width:1px; }
+#graph .value { border:0 none; }
+
+#criterias {  }
+  .criteria { -moz-border-radius:5px; background:#C7D8FB; font-size:14px; margin:10px; min-height:72px; width:600px; position:relative; }
+  .criteria .weight { position:absolute; top:10px; right:5px; font-size:11px; height:70%; }
+  .criteria > header { padding: 3px 5px 0; }
+    #criterias header input.label { width:200px; }
+    #criterias header input.value { margin-left:229px; }
+  #criterias .slider { font-size:11px; }
+  li > div { display:inline-block; margin: 0 10px; }
+  #criterias .label,.label input { width:100px; }
+  #criterias div.label { color:#5A5D76; }
+  .slider { width:300px; }
+  .value, .value input { text-align:center; width:80px; }
+  .criteria > footer { height:8px; }
+
+  .ib { display:inline-block; vertical-align:top; }
+.icon {
+  display:inline-block;
+  text-align:left;
+  text-indent:-999em;
+  width: 16px;
+  height:16px;
+  cursor:pointer;
+}
+
+.icon.add{
+  background: url(icons/16-em-plus.png) no-repeat 50% 50% transparent;
+}
+.icon.delete {
+  background: url(icons/16-em-cross.png) no-repeat 50% 50% transparent;
+}
